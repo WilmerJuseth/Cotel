@@ -1,0 +1,89 @@
+<div class="Coctelramdon">
+    <h1 class="titulo">COCTEL RAMDON</h1>
+    <hr>
+    <div class="Coctelramdon1">
+        <div *ngIf="quote" class="Coctelramdon2">
+            <h2>{{quote[0].strDrink}}</h2>
+            <input type="checkbox" id="btn-modal">
+            <label for="btn-modal">
+                <img src='{{quote[0].strDrinkThumb}}' alt="">
+            </label>
+            <div class="modal">
+                <div class="contenedor">
+                    <header></header>
+                    <label for="btn-modal">X</label>
+                    <div class="contenido">
+                        <img src='{{quote[0].strDrinkThumb}}' alt="">
+                        <div class="Ingredientes">
+                            <h2>Ingredientes</h2>
+                            <ul>
+                                <li>{{quote[0].strIngredient1}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient1}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient2}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient2}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient3}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient3}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient4}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient4}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient5}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient5}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient6}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient6}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient7}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient7}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient8}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient8}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient9}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient9}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient10}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient10}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient11}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient11}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient12}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient12}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient13}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient13}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient14}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient14}}-Small.png"
+                                        alt=""></li>
+                                <li>{{quote[0].strIngredient15}} <img
+                                        src="https://www.thecocktaildb.com/images/ingredients/{{quote[0].strIngredient15}}-Small.png"
+                                        alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="Preparacion">
+                            <h2>Preparacion</h2>
+                            <li>{{quote[0].strInstructions}}</li>
+                        </div>
+                        <div class="tipo">
+                            <h2>Tipo de Vaso</h2>
+                            <li>{{quote[0].strGlass}}</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <button class="button1" (click)="mostrarQuote()">
+        Click Aqui
+    </button>
+</div>
+
+<!--<div class="Coctelpornombre">
+<h1 class="titulo">Buqueda de coctel</h1>
+<hr>
+</div>-->

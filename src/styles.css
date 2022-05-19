@@ -1,0 +1,419 @@
+body {
+    background: url(https://img.freepik.com/vector-gratis/vector-fondo-bodega-acogedor-espacio-barriles-madera_33099-1207.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.borde1 {
+    position: fixed;
+    background: url(https://ideakreativa.net/wp-content/uploads/2018/10/20_dark_wood_background_textures_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1909494_o-700x466.jpg);
+    top: 0%;
+    left: 0%;
+    width: 5%;
+    height: 100%;
+}
+
+.borde2 {
+    position: fixed;
+    background: url(https://ideakreativa.net/wp-content/uploads/2018/10/20_dark_wood_background_textures_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1909494_o-700x466.jpg);
+    top: 0%;
+    right: 0%;
+    width: 5%;
+    height: 100%;
+}
+.Tportada{
+    position: fixed;
+    background: url(https://ideakreativa.net/wp-content/uploads/2018/10/20_dark_wood_background_textures_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1909494_o-700x466.jpg);
+    top: 0%;
+    left: 5%;
+    width: 90%;
+    height: 10%;
+}
+
+.Tportada h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size:xx-large;
+    margin: 0.99%;
+}
+
+.portada{
+    position: absolute;
+    background: #9c8f87;
+    border-radius: 10%;
+    top: 10%;
+    left: 7.5%;
+    width: 85%;
+    height: 80%;
+}
+
+.portada img{
+    position: absolute;
+    background: #9c8f87;
+    border-radius: 50%;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    height: 60%;
+}
+
+.integrantes{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    width: 24%;
+    height: 20%;
+}
+
+.integrantes h3{
+    position: absolute;
+    top: -16%;
+    left: 20%;
+    width: 50%;
+    height: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+}
+
+.integrantes ul{
+    position: absolute;
+    top: 25%;
+    left: 16%;
+    width: 50%;
+    height: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
+.API{
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    width: 24%;
+    height: 20%; 
+}
+
+.API ul{
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    width: 100%;
+    height: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large; 
+}
+
+.Coctelramdon {
+    position: absolute;
+    background: #9c8f87;
+    border-radius: 10%;
+    top: 110%;
+    left: 7.5%;
+    width: 85%;
+    height: 80%;
+}
+
+.button1 {
+    position: absolute;
+    top: 86%;
+    left: 30%;
+    border-radius: 20%;
+    border-style: solid;
+    width: 40%;
+    height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    transform: translateY(0%);
+    transition: all 500ms ease;
+}
+
+.button1:hover {
+    transform: translateY(-20%);
+    transition: all 500ms ease;
+    background: url(https://acegif.com/wp-content/gif/beer-69.gif);
+    background-size: 100% 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.Coctelramdon1 {
+    position: absolute;
+    background: url(https://www.laguiadelvaron.com/wp-content/uploads/2019/01/escritura-de-x-www.laguiadelvaron-1.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    top: 16%;
+    left: 32.5%;
+    width: 35%;
+    height: 65%;
+}
+
+.Coctelramdon2 {
+    position: absolute;
+    background: #9c8f87;
+    top: -3%;
+    left: -93%;
+    width: 286%;
+    height: 108%;
+}
+
+.Coctelramdon2 img {
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    width: 40%;
+    height: 80%;
+    border-radius: 20%;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+    filter: grayscale(100%);
+}
+
+.Coctelramdon2 img:hover {
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    width: 40%;
+    height: 80%;
+    border-radius: 20%;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+    filter: none;
+    cursor: pointer;
+}
+
+.Coctelramdon2 h2 {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.Coctelpornombre {
+    position: absolute;
+    background-color: #EEEAEC;
+    border-radius: 10%;
+    top: 210%;
+    left: 7.5%;
+    width: 85%;
+    height: 80%;
+}
+
+.modal {
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-modal:checked~.modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal label {
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    right: 0%;
+    width: 2%;
+    height: 5%;
+    cursor: pointer;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#btn-modal {
+    display: none;
+}
+
+.contenedor {
+    background: black;
+    color: white;
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 85%;
+    transform: translateY(-30%);
+    transition: all 500ms ease;
+
+}
+
+#btn-modal:checked~.modal .contenedor {
+    transform: translateY(0%);
+}
+
+.contenido img {
+    filter: none;
+    border-radius: 0%;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+}
+
+.contenido img:hover {
+    filter: none;
+    border-radius: 0%;
+    border: black;
+    border-style: solid;
+    border-width: medium;
+    cursor: auto;
+}
+
+.contenido {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    height: 93%;
+}
+
+.Ingredientes {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 25%;
+    height: 100%;
+}
+
+.Ingredientes h2 {
+    position: absolute;
+    left: 0%;
+    top: -4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    width: 100%;
+    height: 20%;
+}
+
+.Ingredientes ul {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 100%;
+    height: 75%;
+}
+
+.Ingredientes li img {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 10%;
+    height: auto;
+    margin: none;
+    padding: none;
+}
+
+.Preparacion {
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    width: 25%;
+    height: 100%;
+}
+
+.Preparacion h2 {
+    position: absolute;
+    left: 0%;
+    top: -4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    width: 100%;
+    height: 20%;
+}
+
+.Preparacion li {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 100%;
+    height: 75%;
+}
+
+.tipo {
+    position: absolute;
+    left: 25%;
+    top: 75%;
+    width: 25%;
+    height: 25%;
+}
+
+.tipo h2 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    width: 100%;
+    height: 20%;
+}
+
+.tipo li {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    width: 100%;
+    height: 75%;
+}
+
+.portada1{
+    position: absolute;
+    top: 9%;
+    left: 42.5%;
+    width: 15%;
+    height: 8%;
+    display: flex;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.portada1 ul{
+    list-style: none;
+    padding-left: 3%;
+    animation: cambiar 7s infinite;
+}
+
+.portada1 ul, h2{
+    margin: 0;
+}
+
+@keyframes cambiar{
+
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -45px;}
+    50%{margin-top: -45px;}
+
+    55%{margin-top: -85px;}
+    80%{margin-top: -85px;}
+
+    85%{margin-top: -45px;}
+    90%{margin-top: -45px;}
+
+    100%{margin-top: 0;}
+}
